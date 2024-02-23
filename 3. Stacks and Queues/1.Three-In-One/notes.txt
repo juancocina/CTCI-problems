@@ -1,0 +1,30 @@
+I'm going to attempt to translate the code for a flexible multistack in the CTCI book.
+One thing that I don't really understand right now is the classes, as well as private and public
+functions in the solution. 
+
+So, thats one of my goals for this. Understanding the creation of classes and functions and why they
+are either made public or private. 
+
+
+I found a resource on github that has already done the translation.
+One difference is that the github version doesn't have a class inside a class like CTCI does.
+There is no "StackInfo".
+When I tried translating it myself, I found that I had trouble declaring lines 39 and 40,
+since it was being used earlier, in lines 17, 22.
+
+The solution that I found online is missing a lot of functions.
+    -  push is missing the shift if full
+    - pop looks fine
+    - peek?
+    - shift is missing
+    - expand is missing
+    - numberOfElements, which i think is stackCapacityUsed for us
+    - allStacksAreFull i think is missing
+    - adjustIndex is missing
+    - nextIndex is missing 
+    - previousIndex is missing 
+
+They got the Fixed Division solution nailed down pretty nicely though
+I think this opens up the path for the second approach 
+
+Its probably possible to build up approach #2 based off what I already have down.

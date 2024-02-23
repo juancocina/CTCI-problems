@@ -1,0 +1,19 @@
+SO SO SO,
+
+This problem took me approximately two hours (with distracitons)
+
+I sort of understood the main idea of what I wanted to do. More or less how I wanted to execute
+the functions.
+After taking a look at the last hint it really cemented the idea in my head.
+
+I ended up having to create two classes, one for the node, one for the stack of nodes
+The node itself tracks the data, and the stack is made of those nodes.
+
+I have a knowledge gap for creating classes and and structures.
+Looking up a stack data structure helped me understand how I was gonna make my solution.
+I will admit, most of the code was retrieved from 
+    https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/
+
+My work was mainly lines 22-28.
+I thought I would take the time to get practice working with classes and functions.
+Thats my main take away.
